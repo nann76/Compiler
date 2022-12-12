@@ -1,0 +1,49 @@
+program
+    Sequence
+        Sequence
+            DeclStmt
+                Id	name: k	scope: 0	type: int
+            ConstDeclInitStmt
+                Id	name: n	scope: 0	type: int
+                IntegerLiteral	value: 10	type: int
+        FunctionDefine function name: main, type: int() ParamType: 
+            CompoundStmt
+                Sequence
+                    Sequence
+                        Sequence
+                            Sequence
+                                DeclInitStmt
+                                    Id	name: i	scope: 2	type: int
+                                    IntegerLiteral	value: 0	type: int
+                                AssignStmt
+                                    Id	name: k	scope: 0	type: int
+                                    IntegerLiteral	value: 1	type: int
+                            WhileStmt
+                                BinaryExpr	op: LESSEQUAL
+                                    Id	name: i	scope: 2	type: int
+                                    BinaryExpr	op: sub
+                                        Id	name: n	scope: 0	type: int
+                                        IntegerLiteral	value: 1	type: int
+                                CompoundStmt
+                                    Sequence
+                                        Sequence
+                                            AssignStmt
+                                                Id	name: i	scope: 2	type: int
+                                                BinaryExpr	op: add
+                                                    Id	name: i	scope: 2	type: int
+                                                    IntegerLiteral	value: 1	type: int
+                                            FuncCallStmt
+                                                BinaryExpr	op: add
+                                                    Id	name: k	scope: 0	type: int
+                                                    IntegerLiteral	value: 1	type: int
+                                        AssignStmt
+                                            Id	name: k	scope: 0	type: int
+                                            BinaryExpr	op: add
+                                                Id	name: k	scope: 0	type: int
+                                                Id	name: k	scope: 0	type: int
+                        FuncCallStmt
+                            FuncCall
+                                Id	name: putint	scope: 0	type: void() ParamType: int 
+                                Id	name: k	scope: 0	type: int
+                    ReturnStmt
+                        Id	name: k	scope: 0	type: int

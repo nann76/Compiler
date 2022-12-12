@@ -1,0 +1,41 @@
+program
+    Sequence
+        Sequence
+            DeclStmt
+                Id	name: a	scope: 0	type: int
+            DeclStmt
+                Id	name: b	scope: 0	type: int
+        FunctionDefine function name: main, type: int() ParamType: 
+            CompoundStmt
+                Sequence
+                    Sequence
+                        Sequence
+                            Sequence
+                                AssignStmt
+                                    Id	name: a	scope: 0	type: int
+                                    FuncCall
+                                        Id	name: getint	scope: 0	type: int() ParamType: 
+                                AssignStmt
+                                    Id	name: b	scope: 0	type: int
+                                    FuncCall
+                                        Id	name: getint	scope: 0	type: int() ParamType: 
+                            DeclStmt
+                                Id	name: c	scope: 2	type: int
+                        IfElseStmt
+                            BinaryExpr	op: and
+                                BinaryExpr	op: EQUAL
+                                    Id	name: a	scope: 0	type: int
+                                    Id	name: b	scope: 0	type: int
+                                BinaryExpr	op: NOTEQUAL
+                                    Id	name: a	scope: 0	type: int
+                                    IntegerLiteral	value: 3	type: int
+                            CompoundStmt
+                                AssignStmt
+                                    Id	name: c	scope: 2	type: int
+                                    IntegerLiteral	value: 1	type: int
+                            CompoundStmt
+                                AssignStmt
+                                    Id	name: c	scope: 2	type: int
+                                    IntegerLiteral	value: 0	type: int
+                    ReturnStmt
+                        Id	name: c	scope: 2	type: int

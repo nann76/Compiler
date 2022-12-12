@@ -1,0 +1,14 @@
+program
+    FunctionDefine function name: main, type: int() ParamType: 
+        CompoundStmt
+            Sequence
+                Sequence
+                    DeclInitStmt
+                        Id	name: a	scope: 2	type: int
+                        IntegerLiteral	value: 10	type: int
+                ReturnStmt
+                    BinaryExpr	op: add
+                        BinaryExpr	op: MUL
+                            Id	name: a	scope: 2	type: int
+                            IntegerLiteral	value: 2	type: int
+                        IntegerLiteral	value: 1	type: int

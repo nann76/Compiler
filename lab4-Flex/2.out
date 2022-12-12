@@ -1,0 +1,87 @@
+token	lexeme	lineno	offsett	scopeno
+commentLineBegin	 i am a function: this function has many syntax errors.	commentLineEnd
+INT	int	2	0
+ID	f	2	3	0
+LPAREN	(	2	4
+RPAREN	)	2	5
+LBRACE	{	2	6
+INT	int	3	0
+ID	a	3	3	1
+SEM	;	3	4
+ID	a	4	0	1
+ASSIGN	=	4	1
+OCTAL	0	4	2
+SEM	;	4	3
+WHILE	while	5	0
+LPAREN	(	5	5
+ID	a	5	6	1
+LESS	<	5	7
+NUMBER	10	5	8
+RPAREN	)	5	10
+LBRACE	{	5	11
+ID	a	6	0	2
+ASSIGN	=	6	1
+ID	a	6	2	2
+MUL	*	6	3
+NUMBER	2345	6	4
+SEM	;	6	8
+RBRACE	}	7	0
+RETURN	return	8	0
+ID	a	8	6	1
+SEM	;	8	7
+RBRACE	}	9	0
+INT	int	11	0
+ID	main	11	3	0
+LPAREN	(	11	7
+RPAREN	)	11	8
+LBRACE	{	11	9
+INT	int	12	0
+ID	_testid	12	3	3
+SEM	;	12	10
+ID	_testid	13	0	3
+ASSIGN	=	13	7
+OCTAL	0	13	8
+SEM	;	13	9
+IF	if	14	0
+LPAREN	(	14	2
+ID	_testid	14	3	3
+EQUAL	==	14	10
+OCTAL	0	14	12
+RPAREN	)	14	13
+LBRACE	{	14	14
+INT	int	15	0
+ID	_testid	15	3	4
+SEM	;	15	10
+INT	int	16	0
+ID	_testid2	16	3	4
+SEM	;	16	11
+ID	_testid1	17	0	4
+ASSIGN	=	17	8
+ID	_testid1	17	9	4
+ADD	+	17	17
+NUMBER	1	17	18
+SEM	;	17	19
+RBRACE	}	18	0
+commentBegin	
+		Comment lines;
+	commentEnd
+LBRACE	{	20	0
+INT	int	21	0
+ID	a	21	3	5
+SEM	;	21	4
+RBRACE	}	22	0
+LBRACE	{	23	0
+INT	int	24	0
+ID	a	24	3	6
+SEM	;	24	4
+RBRACE	}	25	0
+INT	int	26	0
+ID	b	26	3	3
+SEM	;	26	4
+RETURN	return	27	0
+OCTAL	0	27	6
+SEM	;	27	7
+RBRACE	}	28	0
+commentBegin	
+	Comment lines.
+commentEnd

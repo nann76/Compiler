@@ -1,0 +1,353 @@
+program
+    Sequence
+        Sequence
+            Sequence
+                Sequence
+                    DeclList
+                        DeclList
+                            DeclStmt
+                                Id	name: a	scope: 0	type: int
+                            DeclStmt
+                                Id	name: b	scope: 0	type: int
+                        DeclStmt
+                            Id	name: d	scope: 0	type: int
+                    FunctionDefine function name: set_a, type: int() ParamType: int 
+                        CompoundStmt
+                            Sequence
+                                AssignStmt
+                                    Id	name: a	scope: 0	type: int
+                                    Id	name: val	scope: 1	type: int
+                                ReturnStmt
+                                    Id	name: a	scope: 0	type: int
+                FunctionDefine function name: set_b, type: int() ParamType: int 
+                    CompoundStmt
+                        Sequence
+                            AssignStmt
+                                Id	name: b	scope: 0	type: int
+                                Id	name: val	scope: 1	type: int
+                            ReturnStmt
+                                Id	name: b	scope: 0	type: int
+            FunctionDefine function name: set_d, type: int() ParamType: int 
+                CompoundStmt
+                    Sequence
+                        AssignStmt
+                            Id	name: d	scope: 0	type: int
+                            Id	name: val	scope: 1	type: int
+                        ReturnStmt
+                            Id	name: d	scope: 0	type: int
+        FunctionDefine function name: main, type: int() ParamType: 
+            CompoundStmt
+                Sequence
+                    Sequence
+                        Sequence
+                            Sequence
+                                Sequence
+                                    Sequence
+                                        Sequence
+                                            Sequence
+                                                Sequence
+                                                    Sequence
+                                                        Sequence
+                                                            Sequence
+                                                                Sequence
+                                                                    Sequence
+                                                                        Sequence
+                                                                            Sequence
+                                                                                Sequence
+                                                                                    Sequence
+                                                                                        Sequence
+                                                                                            Sequence
+                                                                                                Sequence
+                                                                                                    Sequence
+                                                                                                        Sequence
+                                                                                                            Sequence
+                                                                                                                Sequence
+                                                                                                                    Sequence
+                                                                                                                        Sequence
+                                                                                                                            Sequence
+                                                                                                                                Sequence
+                                                                                                                                    Sequence
+                                                                                                                                        Sequence
+                                                                                                                                            Sequence
+                                                                                                                                                Sequence
+                                                                                                                                                    Sequence
+                                                                                                                                                        Sequence
+                                                                                                                                                            Sequence
+                                                                                                                                                                Sequence
+                                                                                                                                                                    AssignStmt
+                                                                                                                                                                        Id	name: a	scope: 0	type: int
+                                                                                                                                                                        IntegerLiteral	value: 2	type: int
+                                                                                                                                                                    AssignStmt
+                                                                                                                                                                        Id	name: b	scope: 0	type: int
+                                                                                                                                                                        IntegerLiteral	value: 3	type: int
+                                                                                                                                                                IfStmt
+                                                                                                                                                                    BinaryExpr	op: and
+                                                                                                                                                                        FuncCall
+                                                                                                                                                                            Id	name: set_a	scope: 0	type: int() ParamType: int 
+                                                                                                                                                                            IntegerLiteral	value: 0	type: int
+                                                                                                                                                                        FuncCall
+                                                                                                                                                                            Id	name: set_b	scope: 0	type: int() ParamType: int 
+                                                                                                                                                                            IntegerLiteral	value: 1	type: int
+                                                                                                                                                            IfStmt
+                                                                                                                                                                BinaryExpr	op: and
+                                                                                                                                                                    FuncCall
+                                                                                                                                                                        Id	name: set_a	scope: 0	type: int() ParamType: int 
+                                                                                                                                                                        IntegerLiteral	value: 0	type: int
+                                                                                                                                                                    FuncCall
+                                                                                                                                                                        Id	name: set_b	scope: 0	type: int() ParamType: int 
+                                                                                                                                                                        IntegerLiteral	value: 1	type: int
+                                                                                                                                                                CompoundStmt
+                                                                                                                                                        FuncCallStmt
+                                                                                                                                                            FuncCall
+                                                                                                                                                                Id	name: putint	scope: 0	type: void() ParamType: int 
+                                                                                                                                                                Id	name: a	scope: 0	type: int
+                                                                                                                                                    FuncCallStmt
+                                                                                                                                                        FuncCall
+                                                                                                                                                            Id	name: putch	scope: 0	type: void() ParamType: int 
+                                                                                                                                                            IntegerLiteral	value: 32	type: int
+                                                                                                                                                FuncCallStmt
+                                                                                                                                                    FuncCall
+                                                                                                                                                        Id	name: putint	scope: 0	type: void() ParamType: int 
+                                                                                                                                                        Id	name: b	scope: 0	type: int
+                                                                                                                                            FuncCallStmt
+                                                                                                                                                FuncCall
+                                                                                                                                                    Id	name: putch	scope: 0	type: void() ParamType: int 
+                                                                                                                                                    IntegerLiteral	value: 32	type: int
+                                                                                                                                        AssignStmt
+                                                                                                                                            Id	name: a	scope: 0	type: int
+                                                                                                                                            IntegerLiteral	value: 2	type: int
+                                                                                                                                    AssignStmt
+                                                                                                                                        Id	name: b	scope: 0	type: int
+                                                                                                                                        IntegerLiteral	value: 3	type: int
+                                                                                                                                IfStmt
+                                                                                                                                    BinaryExpr	op: and
+                                                                                                                                        FuncCall
+                                                                                                                                            Id	name: set_a	scope: 0	type: int() ParamType: int 
+                                                                                                                                            IntegerLiteral	value: 0	type: int
+                                                                                                                                        FuncCall
+                                                                                                                                            Id	name: set_b	scope: 0	type: int() ParamType: int 
+                                                                                                                                            IntegerLiteral	value: 1	type: int
+                                                                                                                            FuncCallStmt
+                                                                                                                                FuncCall
+                                                                                                                                    Id	name: putint	scope: 0	type: void() ParamType: int 
+                                                                                                                                    Id	name: a	scope: 0	type: int
+                                                                                                                        FuncCallStmt
+                                                                                                                            FuncCall
+                                                                                                                                Id	name: putch	scope: 0	type: void() ParamType: int 
+                                                                                                                                IntegerLiteral	value: 32	type: int
+                                                                                                                    FuncCallStmt
+                                                                                                                        FuncCall
+                                                                                                                            Id	name: putint	scope: 0	type: void() ParamType: int 
+                                                                                                                            Id	name: b	scope: 0	type: int
+                                                                                                                FuncCallStmt
+                                                                                                                    FuncCall
+                                                                                                                        Id	name: putch	scope: 0	type: void() ParamType: int 
+                                                                                                                        IntegerLiteral	value: 10	type: int
+                                                                                                            ConstDeclInitStmt
+                                                                                                                Id	name: c	scope: 2	type: int
+                                                                                                                IntegerLiteral	value: 1	type: int
+                                                                                                        AssignStmt
+                                                                                                            Id	name: d	scope: 0	type: int
+                                                                                                            IntegerLiteral	value: 2	type: int
+                                                                                                    IfStmt
+                                                                                                        BinaryExpr	op: and
+                                                                                                            BinaryExpr	op: GREATEREQUAL
+                                                                                                                Id	name: c	scope: 2	type: int
+                                                                                                                IntegerLiteral	value: 1	type: int
+                                                                                                            FuncCall
+                                                                                                                Id	name: set_d	scope: 0	type: int() ParamType: int 
+                                                                                                                IntegerLiteral	value: 3	type: int
+                                                                                                FuncCallStmt
+                                                                                                    FuncCall
+                                                                                                        Id	name: putint	scope: 0	type: void() ParamType: int 
+                                                                                                        Id	name: d	scope: 0	type: int
+                                                                                            FuncCallStmt
+                                                                                                FuncCall
+                                                                                                    Id	name: putch	scope: 0	type: void() ParamType: int 
+                                                                                                    IntegerLiteral	value: 32	type: int
+                                                                                        FuncCallStmt
+                                                                                            FuncCall
+                                                                                                Id	name: putint	scope: 0	type: void() ParamType: int 
+                                                                                                Id	name: d	scope: 0	type: int
+                                                                                    FuncCallStmt
+                                                                                        FuncCall
+                                                                                            Id	name: putch	scope: 0	type: void() ParamType: int 
+                                                                                            IntegerLiteral	value: 10	type: int
+                                                                                IfStmt
+                                                                                    BinaryExpr	op: GREATEREQUAL
+                                                                                        IntegerLiteral	value: 16	type: int
+                                                                                        BinaryExpr	op: sub
+                                                                                            IntegerLiteral	value: 3	type: int
+                                                                                            BinaryExpr	op: add
+                                                                                                IntegerLiteral	value: 2	type: int
+                                                                                                IntegerLiteral	value: 1	type: int
+                                                                                    CompoundStmt
+                                                                                        FuncCallStmt
+                                                                                            FuncCall
+                                                                                                Id	name: putch	scope: 0	type: void() ParamType: int 
+                                                                                                IntegerLiteral	value: 65	type: int
+                                                                            IfStmt
+                                                                                BinaryExpr	op: NOTEQUAL
+                                                                                    BinaryExpr	op: sub
+                                                                                        IntegerLiteral	value: 25	type: int
+                                                                                        IntegerLiteral	value: 7	type: int
+                                                                                    BinaryExpr	op: sub
+                                                                                        IntegerLiteral	value: 36	type: int
+                                                                                        BinaryExpr	op: MUL
+                                                                                            IntegerLiteral	value: 6	type: int
+                                                                                            IntegerLiteral	value: 3	type: int
+                                                                                FuncCallStmt
+                                                                                    FuncCall
+                                                                                        Id	name: putch	scope: 0	type: void() ParamType: int 
+                                                                                        IntegerLiteral	value: 66	type: int
+                                                                        IfStmt
+                                                                            BinaryExpr	op: NOTEQUAL
+                                                                                BinaryExpr	op: less
+                                                                                    IntegerLiteral	value: 1	type: int
+                                                                                    IntegerLiteral	value: 8	type: int
+                                                                                BinaryExpr	op: MOD
+                                                                                    IntegerLiteral	value: 7	type: int
+                                                                                    IntegerLiteral	value: 2	type: int
+                                                                            CompoundStmt
+                                                                                FuncCallStmt
+                                                                                    FuncCall
+                                                                                        Id	name: putch	scope: 0	type: void() ParamType: int 
+                                                                                        IntegerLiteral	value: 67	type: int
+                                                                    IfStmt
+                                                                        BinaryExpr	op: EQUAL
+                                                                            BinaryExpr	op: GREATER
+                                                                                IntegerLiteral	value: 3	type: int
+                                                                                IntegerLiteral	value: 4	type: int
+                                                                            IntegerLiteral	value: 0	type: int
+                                                                        CompoundStmt
+                                                                            FuncCallStmt
+                                                                                FuncCall
+                                                                                    Id	name: putch	scope: 0	type: void() ParamType: int 
+                                                                                    IntegerLiteral	value: 68	type: int
+                                                                IfStmt
+                                                                    BinaryExpr	op: EQUAL
+                                                                        IntegerLiteral	value: 1	type: int
+                                                                        BinaryExpr	op: LESSEQUAL
+                                                                            IntegerLiteral	value: 102	type: int
+                                                                            IntegerLiteral	value: 63	type: int
+                                                                    FuncCallStmt
+                                                                        FuncCall
+                                                                            Id	name: putch	scope: 0	type: void() ParamType: int 
+                                                                            IntegerLiteral	value: 69	type: int
+                                                            IfStmt
+                                                                BinaryExpr	op: EQUAL
+                                                                    BinaryExpr	op: sub
+                                                                        IntegerLiteral	value: 5	type: int
+                                                                        IntegerLiteral	value: 6	type: int
+                                                                    UnaryExpr	op: sub
+                                                                        UnaryExpr	op: not
+                                                                            IntegerLiteral	value: 0	type: int
+                                                                FuncCallStmt
+                                                                    FuncCall
+                                                                        Id	name: putch	scope: 0	type: void() ParamType: int 
+                                                                        IntegerLiteral	value: 70	type: int
+                                                        FuncCallStmt
+                                                            FuncCall
+                                                                Id	name: putch	scope: 0	type: void() ParamType: int 
+                                                                IntegerLiteral	value: 10	type: int
+                                                    DeclList
+                                                        DeclList
+                                                            DeclList
+                                                                DeclList
+                                                                    DeclInitStmt
+                                                                        Id	name: i0	scope: 2	type: int
+                                                                        IntegerLiteral	value: 0	type: int
+                                                                    DeclInitStmt
+                                                                        Id	name: i1	scope: 2	type: int
+                                                                        IntegerLiteral	value: 1	type: int
+                                                                DeclInitStmt
+                                                                    Id	name: i2	scope: 2	type: int
+                                                                    IntegerLiteral	value: 2	type: int
+                                                            DeclInitStmt
+                                                                Id	name: i3	scope: 2	type: int
+                                                                IntegerLiteral	value: 3	type: int
+                                                        DeclInitStmt
+                                                            Id	name: i4	scope: 2	type: int
+                                                            IntegerLiteral	value: 4	type: int
+                                                WhileStmt
+                                                    BinaryExpr	op: and
+                                                        Id	name: i0	scope: 2	type: int
+                                                        Id	name: i1	scope: 2	type: int
+                                                    FuncCallStmt
+                                                        FuncCall
+                                                            Id	name: putch	scope: 0	type: void() ParamType: int 
+                                                            IntegerLiteral	value: 32	type: int
+                                            IfStmt
+                                                BinaryExpr	op: or
+                                                    Id	name: i0	scope: 2	type: int
+                                                    Id	name: i1	scope: 2	type: int
+                                                FuncCallStmt
+                                                    FuncCall
+                                                        Id	name: putch	scope: 0	type: void() ParamType: int 
+                                                        IntegerLiteral	value: 67	type: int
+                                        IfStmt
+                                            BinaryExpr	op: or
+                                                BinaryExpr	op: GREATEREQUAL
+                                                    Id	name: i0	scope: 2	type: int
+                                                    Id	name: i1	scope: 2	type: int
+                                                BinaryExpr	op: LESSEQUAL
+                                                    Id	name: i1	scope: 2	type: int
+                                                    Id	name: i0	scope: 2	type: int
+                                            FuncCallStmt
+                                                FuncCall
+                                                    Id	name: putch	scope: 0	type: void() ParamType: int 
+                                                    IntegerLiteral	value: 72	type: int
+                                    IfStmt
+                                        BinaryExpr	op: and
+                                            BinaryExpr	op: GREATEREQUAL
+                                                Id	name: i2	scope: 2	type: int
+                                                Id	name: i1	scope: 2	type: int
+                                            BinaryExpr	op: NOTEQUAL
+                                                Id	name: i4	scope: 2	type: int
+                                                Id	name: i3	scope: 2	type: int
+                                        CompoundStmt
+                                            FuncCallStmt
+                                                FuncCall
+                                                    Id	name: putch	scope: 0	type: void() ParamType: int 
+                                                    IntegerLiteral	value: 73	type: int
+                                IfStmt
+                                    BinaryExpr	op: or
+                                        BinaryExpr	op: and
+                                            BinaryExpr	op: EQUAL
+                                                Id	name: i0	scope: 2	type: int
+                                                UnaryExpr	op: not
+                                                    Id	name: i1	scope: 2	type: int
+                                            BinaryExpr	op: less
+                                                Id	name: i3	scope: 2	type: int
+                                                Id	name: i3	scope: 2	type: int
+                                        BinaryExpr	op: GREATEREQUAL
+                                            Id	name: i4	scope: 2	type: int
+                                            Id	name: i4	scope: 2	type: int
+                                    CompoundStmt
+                                        FuncCallStmt
+                                            FuncCall
+                                                Id	name: putch	scope: 0	type: void() ParamType: int 
+                                                IntegerLiteral	value: 74	type: int
+                            IfStmt
+                                BinaryExpr	op: or
+                                    BinaryExpr	op: EQUAL
+                                        Id	name: i0	scope: 2	type: int
+                                        UnaryExpr	op: not
+                                            Id	name: i1	scope: 2	type: int
+                                    BinaryExpr	op: and
+                                        BinaryExpr	op: less
+                                            Id	name: i3	scope: 2	type: int
+                                            Id	name: i3	scope: 2	type: int
+                                        BinaryExpr	op: GREATEREQUAL
+                                            Id	name: i4	scope: 2	type: int
+                                            Id	name: i4	scope: 2	type: int
+                                FuncCallStmt
+                                    FuncCall
+                                        Id	name: putch	scope: 0	type: void() ParamType: int 
+                                        IntegerLiteral	value: 75	type: int
+                        FuncCallStmt
+                            FuncCall
+                                Id	name: putch	scope: 0	type: void() ParamType: int 
+                                IntegerLiteral	value: 10	type: int
+                    ReturnStmt
+                        IntegerLiteral	value: 0	type: int

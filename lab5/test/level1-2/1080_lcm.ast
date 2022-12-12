@@ -1,0 +1,99 @@
+program
+    Sequence
+        Sequence
+            DeclStmt
+                Id	name: n	scope: 0	type: int
+            FunctionDefine function name: gcd, type: int() ParamType: int int 
+                CompoundStmt
+                    Sequence
+                        Sequence
+                            Sequence
+                                Sequence
+                                    Sequence
+                                        Sequence
+                                            Sequence
+                                                Sequence
+                                                    Sequence
+                                                        DeclStmt
+                                                            Id	name: a	scope: 2	type: int
+                                                        DeclStmt
+                                                            Id	name: b	scope: 2	type: int
+                                                    AssignStmt
+                                                        Id	name: a	scope: 2	type: int
+                                                        Id	name: m	scope: 1	type: int
+                                                AssignStmt
+                                                    Id	name: b	scope: 2	type: int
+                                                    Id	name: n	scope: 1	type: int
+                                            DeclStmt
+                                                Id	name: t	scope: 2	type: int
+                                        DeclStmt
+                                            Id	name: r	scope: 2	type: int
+                                    IfStmt
+                                        BinaryExpr	op: less
+                                            Id	name: m	scope: 1	type: int
+                                            Id	name: n	scope: 1	type: int
+                                        CompoundStmt
+                                            Sequence
+                                                Sequence
+                                                    AssignStmt
+                                                        Id	name: t	scope: 2	type: int
+                                                        Id	name: m	scope: 1	type: int
+                                                    AssignStmt
+                                                        Id	name: m	scope: 1	type: int
+                                                        Id	name: n	scope: 1	type: int
+                                                AssignStmt
+                                                    Id	name: n	scope: 1	type: int
+                                                    Id	name: t	scope: 2	type: int
+                                AssignStmt
+                                    Id	name: r	scope: 2	type: int
+                                    BinaryExpr	op: MOD
+                                        Id	name: m	scope: 1	type: int
+                                        Id	name: n	scope: 1	type: int
+                            WhileStmt
+                                BinaryExpr	op: NOTEQUAL
+                                    Id	name: r	scope: 2	type: int
+                                    IntegerLiteral	value: 0	type: int
+                                CompoundStmt
+                                    Sequence
+                                        Sequence
+                                            AssignStmt
+                                                Id	name: m	scope: 1	type: int
+                                                Id	name: n	scope: 1	type: int
+                                            AssignStmt
+                                                Id	name: n	scope: 1	type: int
+                                                Id	name: r	scope: 2	type: int
+                                        AssignStmt
+                                            Id	name: r	scope: 2	type: int
+                                            BinaryExpr	op: MOD
+                                                Id	name: m	scope: 1	type: int
+                                                Id	name: n	scope: 1	type: int
+                        ReturnStmt
+                            BinaryExpr	op: DIV
+                                BinaryExpr	op: MUL
+                                    Id	name: a	scope: 2	type: int
+                                    Id	name: b	scope: 2	type: int
+                                Id	name: n	scope: 1	type: int
+        FunctionDefine function name: main, type: int() ParamType: 
+            CompoundStmt
+                Sequence
+                    Sequence
+                        Sequence
+                            Sequence
+                                DeclStmt
+                                    Id	name: i	scope: 2	type: int
+                                DeclStmt
+                                    Id	name: m	scope: 2	type: int
+                            AssignStmt
+                                Id	name: i	scope: 2	type: int
+                                FuncCall
+                                    Id	name: getint	scope: 0	type: int() ParamType: 
+                        AssignStmt
+                            Id	name: m	scope: 2	type: int
+                            FuncCall
+                                Id	name: getint	scope: 0	type: int() ParamType: 
+                    ReturnStmt
+                        FuncCall
+                            Id	name: gcd	scope: 0	type: int() ParamType: int int 
+                            FuncRealParams
+                                Id	name: i	scope: 2	type: int
+                                Id	name: m	scope: 2	type: int

@@ -1,0 +1,19 @@
+void main(){
+
+int a=10;
+int i=0;
+while(i<=5){
+
+a=a*10;
+if(a>=800){
+break;
+}
+i=i+1;
+
+
+}
+
+
+
+
+}

@@ -1,0 +1,47 @@
+token	lexeme	lineno	offsett	scopeno
+VOID	void	1	0
+ID	main	1	4	0
+LPAREN	(	1	8
+RPAREN	)	1	9
+LBRACE	{	1	10
+INT	int	3	0
+ID	a	3	3	1
+ASSIGN	=	3	4
+NUMBER	10	3	5
+SEM	;	3	7
+INT	int	4	0
+ID	i	4	3	1
+ASSIGN	=	4	4
+OCTAL	0	4	5
+SEM	;	4	6
+WHILE	while	5	0
+LPAREN	(	5	5
+ID	i	5	6	1
+LE	<=	5	7
+NUMBER	5	5	9
+RPAREN	)	5	10
+LBRACE	{	5	11
+ID	a	7	0	2
+ASSIGN	=	7	1
+ID	a	7	2	2
+MUL	*	7	3
+NUMBER	10	7	4
+SEM	;	7	6
+IF	if	8	0
+LPAREN	(	8	2
+ID	a	8	3	2
+GE	>=	8	4
+NUMBER	800	8	6
+RPAREN	)	8	9
+LBRACE	{	8	10
+BREAK	break	9	0
+SEM	;	9	5
+RBRACE	}	10	0
+ID	i	11	0	2
+ASSIGN	=	11	1
+ID	i	11	2	2
+ADD	+	11	3
+NUMBER	1	11	4
+SEM	;	11	5
+RBRACE	}	14	0
+RBRACE	}	19	0

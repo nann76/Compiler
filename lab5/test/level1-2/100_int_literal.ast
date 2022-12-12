@@ -1,0 +1,376 @@
+program
+    Sequence
+        Sequence
+            Sequence
+                DeclInitStmt
+                    Id	name: s	scope: 0	type: int
+                    IntegerLiteral	value: 0	type: int
+                FunctionDefine function name: get_ans_se, type: int() ParamType: int int int 
+                    CompoundStmt
+                        Sequence
+                            Sequence
+                                Sequence
+                                    Sequence
+                                        Sequence
+                                            DeclInitStmt
+                                                Id	name: v	scope: 2	type: int
+                                                IntegerLiteral	value: 0	type: int
+                                            IfStmt
+                                                BinaryExpr	op: EQUAL
+                                                    Id	name: v0	scope: 1	type: int
+                                                    Id	name: v1	scope: 1	type: int
+                                                AssignStmt
+                                                    Id	name: v	scope: 2	type: int
+                                                    IntegerLiteral	value: 1	type: int
+                                        AssignStmt
+                                            Id	name: ans	scope: 1	type: int
+                                            BinaryExpr	op: MUL
+                                                Id	name: ans	scope: 1	type: int
+                                                IntegerLiteral	value: 2	type: int
+                                    AssignStmt
+                                        Id	name: ans	scope: 1	type: int
+                                        BinaryExpr	op: add
+                                            Id	name: ans	scope: 1	type: int
+                                            Id	name: v	scope: 2	type: int
+                                AssignStmt
+                                    Id	name: s	scope: 0	type: int
+                                    BinaryExpr	op: add
+                                        Id	name: s	scope: 0	type: int
+                                        Id	name: ans	scope: 1	type: int
+                            ReturnStmt
+                                Id	name: ans	scope: 1	type: int
+            FunctionDefine function name: get_ans, type: int() ParamType: int int int 
+                CompoundStmt
+                    Sequence
+                        Sequence
+                            Sequence
+                                Sequence
+                                    DeclInitStmt
+                                        Id	name: v	scope: 2	type: int
+                                        IntegerLiteral	value: 0	type: int
+                                    IfStmt
+                                        BinaryExpr	op: EQUAL
+                                            Id	name: v0	scope: 1	type: int
+                                            Id	name: v1	scope: 1	type: int
+                                        AssignStmt
+                                            Id	name: v	scope: 2	type: int
+                                            IntegerLiteral	value: 1	type: int
+                                AssignStmt
+                                    Id	name: ans	scope: 1	type: int
+                                    BinaryExpr	op: MUL
+                                        Id	name: ans	scope: 1	type: int
+                                        IntegerLiteral	value: 2	type: int
+                            AssignStmt
+                                Id	name: ans	scope: 1	type: int
+                                BinaryExpr	op: add
+                                    Id	name: ans	scope: 1	type: int
+                                    Id	name: v	scope: 2	type: int
+                        ReturnStmt
+                            Id	name: ans	scope: 1	type: int
+        FunctionDefine function name: main, type: int() ParamType: 
+            CompoundStmt
+                Sequence
+                    Sequence
+                        Sequence
+                            Sequence
+                                Sequence
+                                    Sequence
+                                        Sequence
+                                            Sequence
+                                                Sequence
+                                                    Sequence
+                                                        Sequence
+                                                            Sequence
+                                                                Sequence
+                                                                    Sequence
+                                                                        Sequence
+                                                                            Sequence
+                                                                                Sequence
+                                                                                    Sequence
+                                                                                        Sequence
+                                                                                            Sequence
+                                                                                                Sequence
+                                                                                                    Sequence
+                                                                                                        Sequence
+                                                                                                            Sequence
+                                                                                                                Sequence
+                                                                                                                    Sequence
+                                                                                                                        Sequence
+                                                                                                                            Sequence
+                                                                                                                                ConstDeclInitStmt
+                                                                                                                                    Id	name: k0	scope: 2	type: int
+                                                                                                                                    UnaryExpr	op: sub
+                                                                                                                                        IntegerLiteral	value: -2147483648	type: int
+                                                                                                                                ConstDeclInitStmt
+                                                                                                                                    Id	name: k1	scope: 2	type: int
+                                                                                                                                    IntegerLiteral	value: -2147483648	type: int
+                                                                                                                            ConstDeclInitStmt
+                                                                                                                                Id	name: k2	scope: 2	type: int
+                                                                                                                                BinaryExpr	op: add
+                                                                                                                                    IntegerLiteral	value: -2147483648	type: int
+                                                                                                                                    IntegerLiteral	value: 1	type: int
+                                                                                                                        ConstDeclInitStmt
+                                                                                                                            Id	name: k3	scope: 2	type: int
+                                                                                                                            IntegerLiteral	value: 2147483647	type: int
+                                                                                                                    ConstDeclInitStmt
+                                                                                                                        Id	name: k4	scope: 2	type: int
+                                                                                                                        BinaryExpr	op: sub
+                                                                                                                            IntegerLiteral	value: 2147483647	type: int
+                                                                                                                            IntegerLiteral	value: 1	type: int
+                                                                                                                DeclList
+                                                                                                                    DeclList
+                                                                                                                        DeclList
+                                                                                                                            DeclStmt
+                                                                                                                                Id	name: a1	scope: 2	type: int
+                                                                                                                            DeclStmt
+                                                                                                                                Id	name: a2	scope: 2	type: int
+                                                                                                                        DeclStmt
+                                                                                                                            Id	name: a3	scope: 2	type: int
+                                                                                                                    DeclStmt
+                                                                                                                        Id	name: a4	scope: 2	type: int
+                                                                                                            AssignStmt
+                                                                                                                Id	name: a1	scope: 2	type: int
+                                                                                                                FuncCall
+                                                                                                                    Id	name: get_ans	scope: 0	type: int() ParamType: int int int 
+                                                                                                                    FuncRealParams
+                                                                                                                        FuncRealParams
+                                                                                                                            IntegerLiteral	value: 0	type: int
+                                                                                                                            Id	name: k0	scope: 2	type: int
+                                                                                                                        Id	name: k1	scope: 2	type: int
+                                                                                                        AssignStmt
+                                                                                                            Id	name: a1	scope: 2	type: int
+                                                                                                            FuncCall
+                                                                                                                Id	name: get_ans	scope: 0	type: int() ParamType: int int int 
+                                                                                                                FuncRealParams
+                                                                                                                    FuncRealParams
+                                                                                                                        Id	name: a1	scope: 2	type: int
+                                                                                                                        BinaryExpr	op: add
+                                                                                                                            Id	name: k0	scope: 2	type: int
+                                                                                                                            IntegerLiteral	value: 1	type: int
+                                                                                                                    Id	name: k2	scope: 2	type: int
+                                                                                                    AssignStmt
+                                                                                                        Id	name: a1	scope: 2	type: int
+                                                                                                        FuncCall
+                                                                                                            Id	name: get_ans	scope: 0	type: int() ParamType: int int int 
+                                                                                                            FuncRealParams
+                                                                                                                FuncRealParams
+                                                                                                                    Id	name: a1	scope: 2	type: int
+                                                                                                                    Id	name: k0	scope: 2	type: int
+                                                                                                                BinaryExpr	op: sub
+                                                                                                                    UnaryExpr	op: sub
+                                                                                                                        Id	name: k3	scope: 2	type: int
+                                                                                                                    IntegerLiteral	value: 1	type: int
+                                                                                                AssignStmt
+                                                                                                    Id	name: a1	scope: 2	type: int
+                                                                                                    FuncCall
+                                                                                                        Id	name: get_ans	scope: 0	type: int() ParamType: int int int 
+                                                                                                        FuncRealParams
+                                                                                                            FuncRealParams
+                                                                                                                Id	name: a1	scope: 2	type: int
+                                                                                                                Id	name: k0	scope: 2	type: int
+                                                                                                            BinaryExpr	op: add
+                                                                                                                Id	name: k4	scope: 2	type: int
+                                                                                                                IntegerLiteral	value: 1	type: int
+                                                                                            AssignStmt
+                                                                                                Id	name: a1	scope: 2	type: int
+                                                                                                FuncCall
+                                                                                                    Id	name: get_ans	scope: 0	type: int() ParamType: int int int 
+                                                                                                    FuncRealParams
+                                                                                                        FuncRealParams
+                                                                                                            Id	name: a1	scope: 2	type: int
+                                                                                                            BinaryExpr	op: DIV
+                                                                                                                Id	name: k1	scope: 2	type: int
+                                                                                                                IntegerLiteral	value: 2	type: int
+                                                                                                        BinaryExpr	op: DIV
+                                                                                                            Id	name: k2	scope: 2	type: int
+                                                                                                            IntegerLiteral	value: 2	type: int
+                                                                                        AssignStmt
+                                                                                            Id	name: a1	scope: 2	type: int
+                                                                                            FuncCall
+                                                                                                Id	name: get_ans	scope: 0	type: int() ParamType: int int int 
+                                                                                                FuncRealParams
+                                                                                                    FuncRealParams
+                                                                                                        Id	name: a1	scope: 2	type: int
+                                                                                                        Id	name: k1	scope: 2	type: int
+                                                                                                    BinaryExpr	op: sub
+                                                                                                        UnaryExpr	op: sub
+                                                                                                            Id	name: k3	scope: 2	type: int
+                                                                                                        IntegerLiteral	value: 1	type: int
+                                                                                    AssignStmt
+                                                                                        Id	name: a1	scope: 2	type: int
+                                                                                        FuncCall
+                                                                                            Id	name: get_ans	scope: 0	type: int() ParamType: int int int 
+                                                                                            FuncRealParams
+                                                                                                FuncRealParams
+                                                                                                    Id	name: a1	scope: 2	type: int
+                                                                                                    Id	name: k1	scope: 2	type: int
+                                                                                                BinaryExpr	op: add
+                                                                                                    Id	name: k4	scope: 2	type: int
+                                                                                                    IntegerLiteral	value: 1	type: int
+                                                                                AssignStmt
+                                                                                    Id	name: a2	scope: 2	type: int
+                                                                                    FuncCall
+                                                                                        Id	name: get_ans	scope: 0	type: int() ParamType: int int int 
+                                                                                        FuncRealParams
+                                                                                            FuncRealParams
+                                                                                                IntegerLiteral	value: 0	type: int
+                                                                                                Id	name: k2	scope: 2	type: int
+                                                                                            Id	name: k3	scope: 2	type: int
+                                                                            AssignStmt
+                                                                                Id	name: a2	scope: 2	type: int
+                                                                                FuncCall
+                                                                                    Id	name: get_ans	scope: 0	type: int() ParamType: int int int 
+                                                                                    FuncRealParams
+                                                                                        FuncRealParams
+                                                                                            Id	name: a2	scope: 2	type: int
+                                                                                            Id	name: k2	scope: 2	type: int
+                                                                                        Id	name: k4	scope: 2	type: int
+                                                                        AssignStmt
+                                                                            Id	name: a2	scope: 2	type: int
+                                                                            FuncCall
+                                                                                Id	name: get_ans	scope: 0	type: int() ParamType: int int int 
+                                                                                FuncRealParams
+                                                                                    FuncRealParams
+                                                                                        Id	name: a2	scope: 2	type: int
+                                                                                        Id	name: k3	scope: 2	type: int
+                                                                                    Id	name: k4	scope: 2	type: int
+                                                                    AssignStmt
+                                                                        Id	name: a2	scope: 2	type: int
+                                                                        FuncCall
+                                                                            Id	name: get_ans	scope: 0	type: int() ParamType: int int int 
+                                                                            FuncRealParams
+                                                                                FuncRealParams
+                                                                                    Id	name: a2	scope: 2	type: int
+                                                                                    BinaryExpr	op: DIV
+                                                                                        Id	name: k0	scope: 2	type: int
+                                                                                        IntegerLiteral	value: 2	type: int
+                                                                                BinaryExpr	op: DIV
+                                                                                    Id	name: k1	scope: 2	type: int
+                                                                                    IntegerLiteral	value: 2	type: int
+                                                                AssignStmt
+                                                                    Id	name: a3	scope: 2	type: int
+                                                                    FuncCall
+                                                                        Id	name: get_ans_se	scope: 0	type: int() ParamType: int int int 
+                                                                        FuncRealParams
+                                                                            FuncRealParams
+                                                                                IntegerLiteral	value: 0	type: int
+                                                                                Id	name: k0	scope: 2	type: int
+                                                                            Id	name: k1	scope: 2	type: int
+                                                            AssignStmt
+                                                                Id	name: a3	scope: 2	type: int
+                                                                FuncCall
+                                                                    Id	name: get_ans_se	scope: 0	type: int() ParamType: int int int 
+                                                                    FuncRealParams
+                                                                        FuncRealParams
+                                                                            Id	name: a3	scope: 2	type: int
+                                                                            BinaryExpr	op: add
+                                                                                Id	name: k0	scope: 2	type: int
+                                                                                IntegerLiteral	value: 1	type: int
+                                                                        Id	name: k2	scope: 2	type: int
+                                                        AssignStmt
+                                                            Id	name: a3	scope: 2	type: int
+                                                            FuncCall
+                                                                Id	name: get_ans_se	scope: 0	type: int() ParamType: int int int 
+                                                                FuncRealParams
+                                                                    FuncRealParams
+                                                                        Id	name: a3	scope: 2	type: int
+                                                                        Id	name: k0	scope: 2	type: int
+                                                                    BinaryExpr	op: sub
+                                                                        UnaryExpr	op: sub
+                                                                            Id	name: k3	scope: 2	type: int
+                                                                        IntegerLiteral	value: 1	type: int
+                                                    AssignStmt
+                                                        Id	name: a3	scope: 2	type: int
+                                                        FuncCall
+                                                            Id	name: get_ans_se	scope: 0	type: int() ParamType: int int int 
+                                                            FuncRealParams
+                                                                FuncRealParams
+                                                                    Id	name: a3	scope: 2	type: int
+                                                                    Id	name: k0	scope: 2	type: int
+                                                                BinaryExpr	op: add
+                                                                    Id	name: k4	scope: 2	type: int
+                                                                    IntegerLiteral	value: 1	type: int
+                                                AssignStmt
+                                                    Id	name: a3	scope: 2	type: int
+                                                    FuncCall
+                                                        Id	name: get_ans_se	scope: 0	type: int() ParamType: int int int 
+                                                        FuncRealParams
+                                                            FuncRealParams
+                                                                Id	name: a3	scope: 2	type: int
+                                                                BinaryExpr	op: DIV
+                                                                    Id	name: k1	scope: 2	type: int
+                                                                    IntegerLiteral	value: 2	type: int
+                                                            BinaryExpr	op: DIV
+                                                                Id	name: k2	scope: 2	type: int
+                                                                IntegerLiteral	value: 2	type: int
+                                            AssignStmt
+                                                Id	name: a3	scope: 2	type: int
+                                                FuncCall
+                                                    Id	name: get_ans_se	scope: 0	type: int() ParamType: int int int 
+                                                    FuncRealParams
+                                                        FuncRealParams
+                                                            Id	name: a3	scope: 2	type: int
+                                                            Id	name: k1	scope: 2	type: int
+                                                        BinaryExpr	op: sub
+                                                            UnaryExpr	op: sub
+                                                                Id	name: k3	scope: 2	type: int
+                                                            IntegerLiteral	value: 1	type: int
+                                        AssignStmt
+                                            Id	name: a3	scope: 2	type: int
+                                            FuncCall
+                                                Id	name: get_ans_se	scope: 0	type: int() ParamType: int int int 
+                                                FuncRealParams
+                                                    FuncRealParams
+                                                        Id	name: a3	scope: 2	type: int
+                                                        Id	name: k1	scope: 2	type: int
+                                                    BinaryExpr	op: add
+                                                        Id	name: k4	scope: 2	type: int
+                                                        IntegerLiteral	value: 1	type: int
+                                    AssignStmt
+                                        Id	name: a4	scope: 2	type: int
+                                        FuncCall
+                                            Id	name: get_ans_se	scope: 0	type: int() ParamType: int int int 
+                                            FuncRealParams
+                                                FuncRealParams
+                                                    IntegerLiteral	value: 0	type: int
+                                                    Id	name: k2	scope: 2	type: int
+                                                Id	name: k3	scope: 2	type: int
+                                AssignStmt
+                                    Id	name: a4	scope: 2	type: int
+                                    FuncCall
+                                        Id	name: get_ans_se	scope: 0	type: int() ParamType: int int int 
+                                        FuncRealParams
+                                            FuncRealParams
+                                                Id	name: a4	scope: 2	type: int
+                                                Id	name: k2	scope: 2	type: int
+                                            Id	name: k4	scope: 2	type: int
+                            AssignStmt
+                                Id	name: a4	scope: 2	type: int
+                                FuncCall
+                                    Id	name: get_ans_se	scope: 0	type: int() ParamType: int int int 
+                                    FuncRealParams
+                                        FuncRealParams
+                                            Id	name: a4	scope: 2	type: int
+                                            Id	name: k3	scope: 2	type: int
+                                        Id	name: k4	scope: 2	type: int
+                        AssignStmt
+                            Id	name: a4	scope: 2	type: int
+                            FuncCall
+                                Id	name: get_ans_se	scope: 0	type: int() ParamType: int int int 
+                                FuncRealParams
+                                    FuncRealParams
+                                        Id	name: a4	scope: 2	type: int
+                                        BinaryExpr	op: DIV
+                                            Id	name: k0	scope: 2	type: int
+                                            IntegerLiteral	value: 2	type: int
+                                    BinaryExpr	op: DIV
+                                        Id	name: k1	scope: 2	type: int
+                                        IntegerLiteral	value: 2	type: int
+                    ReturnStmt
+                        BinaryExpr	op: add
+                            BinaryExpr	op: add
+                                BinaryExpr	op: add
+                                    Id	name: a1	scope: 2	type: int
+                                    Id	name: a2	scope: 2	type: int
+                                Id	name: a3	scope: 2	type: int
+                            Id	name: a4	scope: 2	type: int

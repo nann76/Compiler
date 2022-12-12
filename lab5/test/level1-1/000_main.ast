@@ -1,0 +1,5 @@
+program
+    FunctionDefine function name: main, type: int() ParamType: 
+        CompoundStmt
+            ReturnStmt
+                IntegerLiteral	value: 3	type: int

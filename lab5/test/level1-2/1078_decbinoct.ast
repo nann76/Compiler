@@ -1,0 +1,95 @@
+program
+    Sequence
+        FunctionDefine function name: dec2bin, type: int() ParamType: int 
+            CompoundStmt
+                Sequence
+                    Sequence
+                        Sequence
+                            Sequence
+                                Sequence
+                                    Sequence
+                                        Sequence
+                                            Sequence
+                                                DeclStmt
+                                                    Id	name: res	scope: 2	type: int
+                                                DeclStmt
+                                                    Id	name: k	scope: 2	type: int
+                                            DeclStmt
+                                                Id	name: i	scope: 2	type: int
+                                        DeclStmt
+                                            Id	name: temp	scope: 2	type: int
+                                    AssignStmt
+                                        Id	name: res	scope: 2	type: int
+                                        IntegerLiteral	value: 0	type: int
+                                AssignStmt
+                                    Id	name: k	scope: 2	type: int
+                                    IntegerLiteral	value: 1	type: int
+                            AssignStmt
+                                Id	name: temp	scope: 2	type: int
+                                Id	name: a	scope: 1	type: int
+                        WhileStmt
+                            BinaryExpr	op: NOTEQUAL
+                                Id	name: temp	scope: 2	type: int
+                                IntegerLiteral	value: 0	type: int
+                            CompoundStmt
+                                Sequence
+                                    Sequence
+                                        Sequence
+                                            AssignStmt
+                                                Id	name: i	scope: 2	type: int
+                                                BinaryExpr	op: MOD
+                                                    Id	name: temp	scope: 2	type: int
+                                                    IntegerLiteral	value: 2	type: int
+                                            AssignStmt
+                                                Id	name: res	scope: 2	type: int
+                                                BinaryExpr	op: add
+                                                    BinaryExpr	op: MUL
+                                                        Id	name: k	scope: 2	type: int
+                                                        Id	name: i	scope: 2	type: int
+                                                    Id	name: res	scope: 2	type: int
+                                        AssignStmt
+                                            Id	name: k	scope: 2	type: int
+                                            BinaryExpr	op: MUL
+                                                Id	name: k	scope: 2	type: int
+                                                IntegerLiteral	value: 10	type: int
+                                    AssignStmt
+                                        Id	name: temp	scope: 2	type: int
+                                        BinaryExpr	op: DIV
+                                            Id	name: temp	scope: 2	type: int
+                                            IntegerLiteral	value: 2	type: int
+                    ReturnStmt
+                        Id	name: res	scope: 2	type: int
+        FunctionDefine function name: main, type: int() ParamType: 
+            CompoundStmt
+                Sequence
+                    Sequence
+                        Sequence
+                            Sequence
+                                Sequence
+                                    Sequence
+                                        Sequence
+                                            DeclStmt
+                                                Id	name: a	scope: 2	type: int
+                                            AssignStmt
+                                                Id	name: a	scope: 2	type: int
+                                                IntegerLiteral	value: 400	type: int
+                                        DeclStmt
+                                            Id	name: res	scope: 2	type: int
+                                    AssignStmt
+                                        Id	name: res	scope: 2	type: int
+                                        FuncCall
+                                            Id	name: dec2bin	scope: 0	type: int() ParamType: int 
+                                            Id	name: a	scope: 2	type: int
+                                FuncCallStmt
+                                    FuncCall
+                                        Id	name: putint	scope: 0	type: void() ParamType: int 
+                                        Id	name: res	scope: 2	type: int
+                            AssignStmt
+                                Id	name: res	scope: 2	type: int
+                                IntegerLiteral	value: 10	type: int
+                        FuncCallStmt
+                            FuncCall
+                                Id	name: putch	scope: 0	type: void() ParamType: int 
+                                Id	name: res	scope: 2	type: int
+                    ReturnStmt
+                        IntegerLiteral	value: 0	type: int
